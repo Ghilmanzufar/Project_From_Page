@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Popsins", sans-serif;
+  box-sizing: border-box;
+}
+
+#layar {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  padding: 10px;
+  background-size: cover;
+  background-position: center;
+}
+
+#bingkai {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 40px 70px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 540px;
+  backgdrop-filter: blur(20px);
+}
+
+#show {
+  width: 30px;
+  margin-left: 4px;
+  margin-bottom: 5px;
+}
+
+input {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  height: 30px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#simpan {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 300;
+}
+#simpan:hover {
+  text-decoration: underline;
+}
+
+#register {
+  margin-top: 15px;
+}
